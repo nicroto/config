@@ -1,3 +1,4 @@
+cd ~
 edit() {
 	open -a "Sublime Text 2" "$1"
 }
