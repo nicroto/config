@@ -5,5 +5,7 @@
 	{ "keys": ["super+3"], "command": "fold_by_level", "args": {"level": 3} },
 	{ "keys": ["super+4"], "command": "fold_by_level", "args": {"level": 4} },
 	{ "keys": ["super+5"], "command": "fold_by_level", "args": {"level": 5} },
-	{ "keys": ["super+6"], "command": "fold_by_level", "args": {"level": 6} }
+	{ "keys": ["super+6"], "command": "fold_by_level", "args": {"level": 6} },
+
+	{ "keys": ["super+d"], "command": "duplicate_line" }
 ]
