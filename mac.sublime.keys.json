@@ -12,5 +12,7 @@
 	{ "keys": ["super+alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line.sublime-macro"} },
 	{ "keys": ["super+shift+alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line Before.sublime-macro"} },
 	{ "keys": ["super+shift+enter"], "command": "prev_result" },
-	{ "keys": ["super+enter"], "command": "next_result" }
+	{ "keys": ["super+enter"], "command": "next_result" },
+
+	{ "keys": ["ctrl+shift+tab"], "command": "unexpand_tabs", "args": { "set_translate_tabs": false } }
 ]
