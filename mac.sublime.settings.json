@@ -4,5 +4,6 @@
 	[
 		"Vintage"
 	],
-	"find_selected_text": true
+	"find_selected_text": true,
+	"scroll_past_end": true
 }
