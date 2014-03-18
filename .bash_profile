@@ -10,3 +10,6 @@ repeat() {
 		$2 $3
 	done
 }
+monitor-http-get() {
+	sudo ngrep -W byline -qilw 'get' tcp dst port 80
+}
