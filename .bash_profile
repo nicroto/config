@@ -13,3 +13,6 @@ repeat() {
 monitor-http-get() {
 	sudo ngrep -W byline -qilw 'get' tcp dst port 80
 }
+kill-phantom() {
+	pkill phantomjs
+}
