@@ -14,5 +14,7 @@
 	{ "keys": ["super+shift+enter"], "command": "prev_result" },
 	{ "keys": ["super+enter"], "command": "next_result" },
 
-	{ "keys": ["ctrl+shift+tab"], "command": "unexpand_tabs", "args": { "set_translate_tabs": false } }
+	{ "keys": ["ctrl+shift+tab"], "command": "unexpand_tabs", "args": { "set_translate_tabs": false } },
+
+	{ "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} }
 ]
