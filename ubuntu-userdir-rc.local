@@ -12,5 +12,6 @@
 # By default this script does nothing.
 
 sudo mount -t vboxsf -o uid=1000,gid=1000 osx /home/tsenkov/osx
+sudo mount -t vboxsf -o uid=1000,gid=1000 osx-transfer /home/tsenkov/osx-transfer
 
 exit 0

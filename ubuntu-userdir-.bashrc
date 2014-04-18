@@ -108,6 +108,10 @@ fi
 
 # Nikolay Tsenkov's custom funcs
 
+open() {
+   xdg-open $1
+}
+
 phantom_report() {
    path=$(realpath $1)
    fileName="$(basename $1).txt"
