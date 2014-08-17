@@ -168,8 +168,6 @@
 			<string>text source</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#FAFAFAFC</string>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>
