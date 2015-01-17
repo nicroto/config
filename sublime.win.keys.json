@@ -1,0 +1,34 @@
+[
+	{ "keys": ["ctrl+k", "ctrl+1"], "command": "focus_group", "args": { "group": 0 } },
+	{ "keys": ["ctrl+k", "ctrl+2"], "command": "focus_group", "args": { "group": 1 } },
+	{ "keys": ["ctrl+k", "ctrl+3"], "command": "focus_group", "args": { "group": 2 } },
+	{ "keys": ["ctrl+k", "ctrl+4"], "command": "focus_group", "args": { "group": 3 } },
+	{ "keys": ["ctrl+k", "ctrl+5"], "command": "focus_group", "args": { "group": 4 } },
+	{ "keys": ["ctrl+k", "ctrl+6"], "command": "focus_group", "args": { "group": 5 } },
+	{ "keys": ["ctrl+k", "ctrl+7"], "command": "focus_group", "args": { "group": 6 } },
+	{ "keys": ["ctrl+k", "ctrl+8"], "command": "focus_group", "args": { "group": 7 } },
+	{ "keys": ["ctrl+k", "ctrl+9"], "command": "focus_group", "args": { "group": 8 } },
+
+	{ "keys": ["ctrl+1"], "command": "fold_by_level", "args": {"level": 1} },
+	{ "keys": ["ctrl+2"], "command": "fold_by_level", "args": {"level": 2} },
+	{ "keys": ["ctrl+3"], "command": "fold_by_level", "args": {"level": 3} },
+	{ "keys": ["ctrl+4"], "command": "fold_by_level", "args": {"level": 4} },
+	{ "keys": ["ctrl+5"], "command": "fold_by_level", "args": {"level": 5} },
+	{ "keys": ["ctrl+6"], "command": "fold_by_level", "args": {"level": 6} },
+	{ "keys": ["ctrl+7"], "command": "fold_by_level", "args": {"level": 7} },
+	{ "keys": ["ctrl+8"], "command": "fold_by_level", "args": {"level": 8} },
+	{ "keys": ["ctrl+9"], "command": "fold_by_level", "args": {"level": 9} },
+	{ "keys": ["ctrl+alt+shift+a"], "command": "unfold_all" },
+
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+
+	{ "keys": ["ctrl+alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line.sublime-macro"} },
+	{ "keys": ["ctrl+shift+alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line Before.sublime-macro"} },
+	{ "keys": ["ctrl+shift+enter"], "command": "prev_result" },
+	{ "keys": ["ctrl+enter"], "command": "next_result" },
+
+	{ "keys": ["ctrl+shift+tab"], "command": "unexpand_tabs", "args": { "set_translate_tabs": false } },
+
+	{ "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+]
