@@ -16,6 +16,9 @@ monitor-http-get() {
 kill-phantom() {
 	pkill phantomjs
 }
+tree1() {
+	tree -L 1
+}
 phop_cloc() {
 	cloc --exclude-dir=node_modules,bower_components,Pods,test-data,data,watchdog,masshortcut --by-file-by-lang .
 }
