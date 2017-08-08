@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+void addListener (${1:ListenerType}* listener)
+{
+    _listeners.add (listener);
+}
+
+void removeListener (${1:ListenerType}* listener)
+{
+    _listeners.remove (listener);
+}
+
+void triggerEvent (const float newValue)
+{
+    _listeners.call (&${1:ListenerType}::${2:EventMethod}, newValue);
+}
+
+ListenerList <${1:ListenerType}> _listeners;
+]]></content>
+    <tabTrigger>jevent</tabTrigger>
+    <!-- For some reason source doesn't work for cpp and h files -->
+    <!-- <scope>source.cpp</scope> -->
+    <description>JUCE events</description>
+</snippet>
