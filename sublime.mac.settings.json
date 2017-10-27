@@ -1,11 +1,11 @@
 {
     "color_scheme": "Packages/Color Scheme - Default/iPlastic.tmTheme",
     "find_selected_text": true,
-    "font_size": 12.0,
     "ignored_packages":
     [
         "Vintage"
     ],
     "scroll_past_end": true,
-    "translate_tabs_to_spaces": true
+    "translate_tabs_to_spaces": true,
+    "file_exclude_patterns": ["*.pyc", "*.pyo", "*.obj", "*.o" , "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db"]
 }
