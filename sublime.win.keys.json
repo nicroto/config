@@ -27,8 +27,9 @@
 	{ "keys": ["ctrl+shift+enter"], "command": "prev_result" },
 	{ "keys": ["ctrl+enter"], "command": "next_result" },
 
-	{ "keys": ["ctrl+shift+tab"], "command": "unexpand_tabs", "args": { "set_translate_tabs": false } },
+	{ "keys": ["ctrl+shift+tab"], "command": "expand_tabs", "args": { "set_translate_tabs": false } },
 
 	{ "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 
+	{ "keys": ["ctrl+alt+g"], "command": "find_all_under" }
 ]
