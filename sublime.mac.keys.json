@@ -1,25 +1,28 @@
 [
-	{ "keys": ["super+alt+shift+a"], "command": "unfold_all" },
-	{ "keys": ["super+1"], "command": "fold_by_level", "args": {"level": 1} },
-	{ "keys": ["super+2"], "command": "fold_by_level", "args": {"level": 2} },
-	{ "keys": ["super+3"], "command": "fold_by_level", "args": {"level": 3} },
-	{ "keys": ["super+4"], "command": "fold_by_level", "args": {"level": 4} },
-	{ "keys": ["super+5"], "command": "fold_by_level", "args": {"level": 5} },
-	{ "keys": ["super+6"], "command": "fold_by_level", "args": {"level": 6} },
+    { "keys": ["super+alt+shift+a"], "command": "unfold_all" },
+    { "keys": ["super+1"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["super+2"], "command": "fold_by_level", "args": {"level": 2} },
+    { "keys": ["super+3"], "command": "fold_by_level", "args": {"level": 3} },
+    { "keys": ["super+4"], "command": "fold_by_level", "args": {"level": 4} },
+    { "keys": ["super+5"], "command": "fold_by_level", "args": {"level": 5} },
+    { "keys": ["super+6"], "command": "fold_by_level", "args": {"level": 6} },
 
-	{ "keys": ["super+d"], "command": "duplicate_line" },
+    { "keys": ["super+d"], "command": "duplicate_line" },
 
-	{ "keys": ["super+alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line.sublime-macro"} },
-	{ "keys": ["super+shift+alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line Before.sublime-macro"} },
-	{ "keys": ["super+shift+enter"], "command": "prev_result" },
-	{ "keys": ["super+enter"], "command": "next_result" },
+    { "keys": ["super+alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line.sublime-macro"} },
+    { "keys": ["super+shift+alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line Before.sublime-macro"} },
+    { "keys": ["super+shift+enter"], "command": "prev_result" },
+    { "keys": ["super+enter"], "command": "next_result" },
 
-	{ "keys": ["ctrl+shift+tab"], "command": "expand_tabs", "args": { "set_translate_tabs": false } },
+    { "keys": ["ctrl+shift+tab"], "command": "expand_tabs", "args": { "set_translate_tabs": false } },
+    { "keys": ["ctrl+shift+alt+tab"], "command": "unexpand_tabs", "args": { "set_translate_tabs": true } },
+    { "keys": ["super+ctrl+2"], "command": "set_setting", "args": { "setting": "tab_size", "value": 2 } },
+    { "keys": ["super+ctrl+4"], "command": "set_setting", "args": { "setting": "tab_size", "value": 4 } },
 
-	{ "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 
-	{ "keys": ["super+shift+d"], "command": "file_diff_menu" },
+    { "keys": ["super+shift+d"], "command": "file_diff_menu" },
 
-	{ "keys": ["super+ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
-	{ "keys": ["super+ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} }
+    { "keys": ["super+ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["super+ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} }
 ]
