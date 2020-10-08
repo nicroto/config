@@ -1,10 +1,11 @@
 {
-    "color_scheme": "Packages/Color Scheme - Default/iPlastic.tmTheme",
-    "find_selected_text": true,
+    "color_scheme": "Packages/Colorsublime - Themes/iPlastic.tmTheme",
     "ignored_packages":
     [
         "Vintage"
     ],
+    "theme": "Default.sublime-theme",
+    "find_selected_text": true,
     "scroll_past_end": true,
     "translate_tabs_to_spaces": true,
     "file_exclude_patterns": ["*.pyc", "*.pyo", "*.obj", "*.o" , "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db"]
